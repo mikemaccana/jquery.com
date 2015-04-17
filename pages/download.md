@@ -49,6 +49,21 @@ Please read the [2.0 release notes](http://blog.jquery.com/2013/04/18/jquery-2-0
 [jQuery 2.1.3 release
 notes](http://blog.jquery.com/2014/12/18/jquery-1-11-2-and-2-1-3-released-safari-fail-safe-edition/)
 
+## Downloading jQuery using npm
+
+You can download jquery from [npm](https://www.npmjs.com/) with the command:
+```
+npm install jquery
+```
+
+To use jQuery in a browser, you'll also need [Browserify](http://browserify.org/) to allow you to load npm modules in your browser-side code. 
+
+You can then start the module with:
+
+```javascript
+var $ = require('jquery');
+```
+
 ## Downloading jQuery using Bower
 jQuery is registered as a package with [Bower](http://bower.io). You can install the latest version of jQuery with the command:
 ```
@@ -60,6 +75,8 @@ The jQuery Bower package contains additional files besides the default distribut
 ```
 bower install http://code.jquery.com/jquery-2.1.3.min.js
 ```
+
+
 
 ## jQuery Migrate Plugin
 
